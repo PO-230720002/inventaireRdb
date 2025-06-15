@@ -179,6 +179,7 @@ let formulaireAccueilElementWrapper = document.getElementById("formulaireAccueil
 
 function afficherFormulaireAccueil() {
   formulaireAccueilElementWrapper.append(formulaireAccueilElement);
+  document.getElementById("codeItemInput").value = "";
 }
 
 function cacherFormulaireAccueil() {
