@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.patrickHand {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#resultText {
+    position: absolute;
+    left: 50%;
+    bottom: 35% ;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    font-size: 2rem;
+
+    background-color: azure;
+    color: #555;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#resultButtonWrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    z-index: 1000;
+    font-size: 1rem;
+}
+
+.classiqueButton {
+    color: white;
+    border: none;
+    padding: 1rem 1rem;
+}
+
+#resultFalseButton {
+    background-color: #f44336; /* Red */
+}
+#resultTrueButton {
+    background-color: #4CAF50; /* Green */
+}
+
+
+#startStopScanningButton {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    width: fit-content;
+}
+
+.categorieProduit {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: .5em;
+    font-size: 1.2em;
+}
+
+.categorieProduitValeur {
+    display: block;
+    margin-left: 1em ;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#informationProduitList{
+
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5em;
+}
+
+#formulaireAccueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5em;
+}
+
+#codeItemInputWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: .4em;
+}
+
+#codeItemInput {
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+
+#itemQuantitySaisie {
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+#buttonFormulaireWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: .2rem;
+    font-size: 1rem;
+}
+
+
+#codeItemButton {
+    background-color: #4CAF50;
+}
+#ajouterButton {
+    background-color: #4682b4;
+}
+#remplacerButton {
+    background-color: #b69c65;
+}
+
+#annulerSaisieButton {
+    background-color: #f44336;
+}
+
+
+
